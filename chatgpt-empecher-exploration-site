@@ -1,0 +1,20 @@
+Vidéo youtube : https://youtu.be/GO1fGt4WHGo
+
+-- Options --
+
+1. robots.txt
+
+Si vous avez accés a votre robots.txt (comme sur Wordpress)
+
+User-agent: CCBot
+Disallow: /
+
+2. Balise HTML
+
+Peut être intéressant sur Shopify via theme.liquid
+
+<meta name="CCBot" content="nofollow">
+
+3. Ajoutez des captchas. (attention à ne pas empecher l'indexation & les robots de Google)
+
+4. Utilisez des outils de protection du contenu.
